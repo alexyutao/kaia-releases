@@ -1,19 +1,21 @@
 # Kaia 发布
 
-Kaia 的公开安装包与更新分发仓库。这里提供发布说明、安装包、更新签名和更新清单；应用源码保存在独立的私有仓库。
+Kaia 的公开下载与更新分发仓库。这里提供发布说明和发布文件；应用源码保存在独立的私有仓库。下载公开文件无需 GitHub 登录或 GH_TOKEN。
 
-## 下载安装
+## 当前版本
 
-前往 [Releases](https://github.com/alexyutao/kaia-releases/releases) 查看已发布的版本及其附件。下载公开安装包无需 GitHub 登录或 GH_TOKEN。仓库正在准备首次公开发布，可下载文件以已发布版本为准。
+[Kaia v0.31.1 · 公开更新源修复（手动替换版）](https://github.com/alexyutao/kaia-releases/releases/tag/v0.31.1)
 
-Windows x64 用户可选择版本附件中的 EXE 安装包。发布时会同时提供更新签名、latest.json 清单及 SHA-256 校验文件；Windows 应用内更新会验证安装包签名。其他平台的安装包以具体版本附件为准。
+本次提供 Windows x64 应用主程序，适用于已有 Kaia 安装，**不是安装器**。请阅读发布页的替换步骤和 SHA-256 校验文件。其他版本及附件见 [Releases](https://github.com/alexyutao/kaia-releases/releases)。
 
 ## 从旧版迁移
 
-v0.31.0、v0.31.1 等旧安装包的更新源仍指向私有仓库。首次迁移时，请从本仓库手动安装一次包含公开更新源的新版本，之后即可在“设置 → 通用 → 应用更新”检查和下载更新，无需配置 GitHub token。
+旧安装包的更新源可能仍指向私有仓库。请先从系统托盘退出 Kaia，备份原安装目录中的 kaia.exe，再将本次下载的 EXE 重命名为 kaia.exe 并替换原文件。保留 speech 文件夹、其他资源和应用数据目录，然后重新启动。
 
-## 发布内容
+本次主程序版本号仍为 0.31.1，同版本修订需要手动替换。修复版使用公开更新源，并正确区分尚无稳定版本、网络限流和授权失败。
 
-本仓库使用独立的提交历史和版本标签，仅用于分发。正式更新清单地址为：
+## 在线更新
 
-https://github.com/alexyutao/kaia-releases/releases/latest/download/latest.json
+这次手动替换版未提供安装器、更新签名或 latest.json，不能通过应用内自动安装。后续在线更新须发布版本号更高、使用原更新密钥签名的完整安装包及更新清单；对应发布页会说明安装方式。
+
+本仓库使用独立的提交历史与版本标签，应用源码不在此仓库分发。
