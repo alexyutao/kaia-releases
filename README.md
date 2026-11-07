@@ -1,21 +1,27 @@
 # Kaia 发布
 
-Kaia 的公开下载与更新分发仓库。这里提供发布说明和发布文件；应用源码保存在独立的私有仓库。下载公开文件无需 GitHub 登录或 GH_TOKEN。
+Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文件；应用源码保存在独立的私有仓库。下载公开文件无需 GitHub 登录或 GH_TOKEN。
 
 ## 当前版本
 
-[Kaia v0.31.1 · 公开更新源修复（手动替换版）](https://github.com/alexyutao/kaia-releases/releases/tag/v0.31.1)
+[Kaia v0.32.0 · 聊天界面与卡片交互更新](https://github.com/alexyutao/kaia-releases/releases/tag/v0.32.0)
 
-本次提供 Windows x64 应用主程序，适用于已有 Kaia 安装，**不是安装器**。请阅读发布页的替换步骤和 SHA-256 校验文件。其他版本及附件见 [Releases](https://github.com/alexyutao/kaia-releases/releases)。
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.32.0/Kaia_0.32.0_x64-setup.exe)**
 
-## 从旧版迁移
+本次提供真正的 NSIS 安装器，包含程序及所需资源，支持新安装和覆盖升级。安装步骤见发布附件 `README-Windows.txt`，文件校验值见 `SHA256SUMS-0.32.0.txt`。
 
-旧安装包的更新源可能仍指向私有仓库。请先从系统托盘退出 Kaia，备份原安装目录中的 kaia.exe，再将本次下载的 EXE 重命名为 kaia.exe 并替换原文件。保留 speech 文件夹、其他资源和应用数据目录，然后重新启动。
+主要更新：统一聊天卡片，压缩引用与发送队列预览，整理消息操作与模型设置，完善能力选择的键盘高亮及窄屏交互。
 
-本次主程序版本号仍为 0.31.1，同版本修订需要手动替换。修复版使用公开更新源，并正确区分尚无稳定版本、网络限流和授权失败。
+## 从旧版升级
+
+先从系统托盘退出 Kaia，再运行安装包。已有用户选择原安装目录即可升级，应用标识与用户数据目录保持不变；无需手动替换单个主程序。
+
+其他版本及附件见 [Releases](https://github.com/alexyutao/kaia-releases/releases)。旧的 v0.31.1 主程序手动替换版仍保留供历史查阅。
 
 ## 在线更新
 
-这次手动替换版未提供安装器、更新签名或 latest.json，不能通过应用内自动安装。后续在线更新须发布版本号更高、使用原更新密钥签名的完整安装包及更新清单；对应发布页会说明安装方式。
+v0.32.0 通过上面的固定版本链接手动下载安装。原在线更新签名私钥暂不可用，因此本次没有更新签名或 `latest.json`，也不变更现有 Latest 自动更新入口。
+
+应用继续保留原更新公钥；后续完整在线更新需要使用原私钥签发安装包与更新清单。请以上面的“当前版本”下载链接获取这次安装包。
 
 本仓库使用独立的提交历史与版本标签，应用源码不在此仓库分发。
