@@ -4,13 +4,13 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.32.0 · 聊天界面与卡片交互更新](https://github.com/alexyutao/kaia-releases/releases/tag/v0.32.0)
+[Kaia v0.33.0 · 今天首页与生活建议](https://github.com/alexyutao/kaia-releases/releases/tag/v0.33.0)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.32.0/Kaia_0.32.0_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.33.0/Kaia_0.33.0_x64-setup.exe)**
 
-本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级。2026-11-09 已使用原更新私钥重新打包并补齐更新签名与清单。安装步骤见发布附件 `README-Windows.txt`，文件校验值见 `SHA256SUMS-0.32.0.txt`。
+本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.33.0.txt`。
 
-主要更新：统一聊天卡片，压缩引用与发送队列预览，整理消息操作与模型设置，完善能力选择的键盘高亮及窄屏交互。
+主要更新：新增“今天”首页，提供真实天气、全天整合穿衣建议与五行参考配色，连接最近对话、资料库、浏览找回、友人帐和待确认记忆。支持短记录与提问草稿、首页模块定制，并修复双层滚动。原功能页面沿用现有设计和交互。
 
 ## 从旧版升级
 
@@ -20,9 +20,9 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 在线更新
 
-v0.32.0 已使用与客户端内置公钥匹配的原私钥签名，附带 EXE / MSI 更新签名和 `latest.json`，并设为 Latest。已使用公开更新源的较旧版本可在「设置 → 通用 → 应用更新」检查、下载并验证更新。
+本版使用与客户端内置公钥匹配的原私钥签名，附带 EXE / MSI 更新签名和 `latest.json`，并设为 Latest。已使用公开更新源的旧版可在「设置 → 通用 → 应用更新」检查、下载并验证更新。
 
-已经安装 0.32.0 的用户如需本次重新打包的文件，请从上面的固定版本链接手动下载安装；同版本不会再次提示升级。仍使用私有更新源的旧版也需先手动安装一次。
+仍使用私有更新源的旧版需先从上面的链接手动安装一次，之后即可使用公开更新源。
 
 更新签名用于验证来源与完整性；本版未配置 Windows Authenticode 发布者证书，系统仍可能显示 SmartScreen 提示。
 
