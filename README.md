@@ -4,13 +4,13 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.33.3 · 修复对话停止生成](https://github.com/alexyutao/kaia-releases/releases/tag/v0.33.3)
+[Kaia v0.34.0 · 衣橱与功能模块开关](https://github.com/alexyutao/kaia-releases/releases/tag/v0.34.0)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.33.3/Kaia_0.33.3_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.34.0/Kaia_0.34.0_x64-setup.exe)**
 
-本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.33.3.txt`。
+本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.34.0.txt`。
 
-主要更新：修复对话“停止生成”按钮取消无效及流式连接等待数据时停止不及时的问题。停止后保留尚未发送的草稿与引用，可以继续发送下一问；取消后不再输出已缓冲的后续内容。已开始的工具操作仍会完成当前步骤，再停止后续执行。
+主要更新：新增衣橱管理、商品页与交易快照链接，支持截图识别、按购买尺码匹配尺寸和封面选择。“设置 → 功能模块”可关闭或恢复衣橱，已有数据保留。增量导入保留手动资料与图片；同时修复开关圆点对齐、商品链接重复打开，以及语音被打断后的续聊问题。
 
 ## 从旧版升级
 
