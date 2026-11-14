@@ -4,13 +4,13 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.35.1 · 对话请求与城市选择修复](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.1)
+[Kaia v0.35.2 · 天气地点识别兼容修复](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.2)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.1/Kaia_0.35.1_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.2/Kaia_0.35.2_x64-setup.exe)**
 
-本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.35.1.txt`。
+本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.35.2.txt`。
 
-主要更新：修复空工具调用数组导致 OpenAI 兼容接口返回 HTTP 400 的问题，旧会话无需清空即可继续使用。首页在天气加载中、失败后和仅显示穿衣参考时都能更换城市；同名地点可选择明确候选，关闭搜索后重新打开不再卡在“查询中”。
+主要更新：修复首页天气正常、对话天气工具却误报城市有歧义的问题。旧版城市记录中的地区名称和经纬度现在可直接用于查询；地区信息不足时补查地名服务，并区分地区不匹配与真实同名候选。补充天气来源核对规则，明确预报冲突，不再以多数投票拼接预报。无需清空会话或重新选择已有城市。
 
 ## 从旧版升级
 
