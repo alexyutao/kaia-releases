@@ -4,13 +4,13 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.35.4 · 紧凑首页与手机布局](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.4)
+[Kaia v0.35.5 · 衣橱识别与天气缓存](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.5)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.4/Kaia_0.35.4_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.5/Kaia_0.35.5_x64-setup.exe)**
 
-本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.35.4.txt`。
+本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.35.5.txt`。
 
-主要更新：天气移到首页日期问候旁；穿衣建议解释温差、场景和配色等选择原因，并单独提示缺失打底等补充项。桌面端建议与衣物并列，手机端使用可滑动堆叠卡片，长商品名不再撑大卡片。手机日志的记录、搜索和筛选按需展开，并统一动态页面高度与安全区占位。
+主要更新：视觉模型理解购买规格与尺码表的对应关系并说明依据，支持订单购买日期和数量补全；已保存图片可移除和撤销，重新导入不会恢复同一附件。首页天气按小时缓存并合并重复请求，更新失败时保留上次天气与穿衣参考。
 
 ## 从旧版升级
 
