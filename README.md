@@ -4,13 +4,13 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.35.2 · 天气地点识别兼容修复](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.2)
+[Kaia v0.35.3 · 首页衣橱搭配与共用穿衣规则](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.3)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.2/Kaia_0.35.2_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.3/Kaia_0.35.3_x64-setup.exe)**
 
-本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.35.2.txt`。
+本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.35.3.txt`。
 
-主要更新：修复首页天气正常、对话天气工具却误报城市有歧义的问题。旧版城市记录中的地区名称和经纬度现在可直接用于查询；地区信息不足时补查地名服务，并区分地区不匹配与真实同名候选。补充天气来源核对规则，明确预报冲突，不再以多数投票拼接预报。无需清空会话或重新选择已有城市。
+主要更新：首页“今天怎么穿”结合已开启衣橱中的可穿衣物，按天气、场景、整体配色和日支五行给出具体组合，可查看搭配依据及衣物详情。首页和对话共用穿衣规则，实穿舒适与视觉协调优先、五行作颜色参考；雨天避开帆布与麂皮。关闭衣橱则只提供通用天气建议，不读取衣物记录。
 
 ## 从旧版升级
 
