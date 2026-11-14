@@ -4,13 +4,15 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.35.5 · 衣橱识别与天气缓存](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.5)
+[Kaia v0.35.5 · 天气重试修复版](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.5)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.5/Kaia_0.35.5_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.5/Kaia_0.35.5_x64-setup.exe?sha256=f2317c4882ff)**
 
 本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.35.5.txt`。
 
-主要更新：视觉模型理解购买规格与尺码表的对应关系并说明依据，支持订单购买日期和数量补全；已保存图片可移除和撤销，重新导入不会恢复同一附件。首页天气按小时缓存并合并重复请求，更新失败时保留上次天气与穿衣参考。
+主要更新：修复天气获取失败后无法立即更新的问题。仅成功天气缓存一小时，手动刷新和失败后重试立即发起请求；保留上次成功数据，自动清理旧版失败状态。继续包含衣橱 AI 尺码理解、订单日期和数量补全、已保存图片移除等 v0.35.5 改进。
+
+**v0.35.5 安装包已于 2026-11-15 替换为天气重试修复版。已安装同版本的用户请重新下载并覆盖安装；同版本不会触发应用内自动升级。**
 
 ## 从旧版升级
 
