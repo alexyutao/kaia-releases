@@ -4,17 +4,19 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.34.0 · 衣橱与功能模块开关](https://github.com/alexyutao/kaia-releases/releases/tag/v0.34.0)
+[Kaia v0.35.0 · 对话运行机制与来源引用](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.0)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.34.0/Kaia_0.34.0_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.0/Kaia_0.35.0_x64-setup.exe)**
 
-本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.34.0.txt`。
+本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.35.0.txt`。
 
-主要更新：新增衣橱管理、商品页与交易快照链接，支持截图识别、按购买尺码匹配尺寸和封面选择。“设置 → 功能模块”可关闭或恢复衣橱，已有数据保留。增量导入保留手动资料与图片；同时修复开关圆点对齐、商品链接重复打开，以及语音被打断后的续聊问题。
+主要更新：统一主对话、子执行与后台任务的运行机制，后台任务运行时可以继续提问；统一正文、工具步骤与详情面板的来源引用和预览；修复 Anthropic 思考流解析与历史回传。点击输入栏上方的 Token、缓存或上下文信息查看轮次详情，侧边刻度只预览问题和回答摘要。衣橱及功能开关适配新的能力清单，沿用现有搜索和本地附件流程。
 
 ## 从旧版升级
 
 先从系统托盘退出 Kaia，再运行安装包。已有用户选择原安装目录即可升级，应用标识与用户数据目录保持不变；无需手动替换单个主程序。
+
+本版会升级本机执行记录库。升级前可先导出备份；通过应用内更新安装时会创建升级快照。旧版程序无法直接打开升级后的执行记录库，如需回退，应使用升级前的备份。
 
 其他版本、平台及附件见 [Releases](https://github.com/alexyutao/kaia-releases/releases)。旧的 v0.31.1 主程序手动替换版仍保留供历史查阅。
 
