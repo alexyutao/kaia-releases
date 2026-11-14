@@ -4,13 +4,13 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.35.3 · 首页衣橱搭配与共用穿衣规则](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.3)
+[Kaia v0.35.4 · 紧凑首页与手机布局](https://github.com/alexyutao/kaia-releases/releases/tag/v0.35.4)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.3/Kaia_0.35.3_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.35.4/Kaia_0.35.4_x64-setup.exe)**
 
-本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.35.3.txt`。
+本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.35.4.txt`。
 
-主要更新：首页“今天怎么穿”结合已开启衣橱中的可穿衣物，按天气、场景、整体配色和日支五行给出具体组合，可查看搭配依据及衣物详情。首页和对话共用穿衣规则，实穿舒适与视觉协调优先、五行作颜色参考；雨天避开帆布与麂皮。关闭衣橱则只提供通用天气建议，不读取衣物记录。
+主要更新：天气移到首页日期问候旁；穿衣建议解释温差、场景和配色等选择原因，并单独提示缺失打底等补充项。桌面端建议与衣物并列，手机端使用可滑动堆叠卡片，长商品名不再撑大卡片。手机日志的记录、搜索和筛选按需展开，并统一动态页面高度与安全区占位。
 
 ## 从旧版升级
 
