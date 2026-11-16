@@ -4,13 +4,13 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.36.1 · 衣橱图片同步与卡片交互改进](https://github.com/alexyutao/kaia-releases/releases/tag/v0.36.1)
+[Kaia v0.36.2 · 手机布局与穿衣推荐修复](https://github.com/alexyutao/kaia-releases/releases/tag/v0.36.2)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.36.1/Kaia_0.36.1_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.36.2/Kaia_0.36.2_x64-setup.exe)**
 
-本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.36.1.txt`。
+本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.36.2.txt`。
 
-主要更新：衣橱图片通过已有 WebDAV 自动同步缩略图并按需下载原图，支持全部原图离线下载和失败重试；首页服装卡片不再出现选中透明效果。对话卡片的全文与编辑使用全屏抽屉，编辑框自动填满剩余高度；复制 AI 回复只包含正式回答。另改进手机聊天导航、软键盘布局及完成校验期间的回答显示。
+主要更新：手机导航统一到侧边栏，衣橱分类与季节采用紧凑的一行筛选，添加、图片同步和批量删除入口集中在右上角。聊天输入区调整资料、能力和模型入口，菜单面板支持跟手下拉、回弹和关闭动画。首页、衣橱和天气工具共用冷热策略，修复 13—20℃ 可能推荐羽绒服的问题；没有合适薄外搭时提示补齐。
 
 ## 从旧版升级
 
