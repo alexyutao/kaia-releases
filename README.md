@@ -4,19 +4,19 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.36.0 · 对话执行与衣橱查询改进](https://github.com/alexyutao/kaia-releases/releases/tag/v0.36.0)
+[Kaia v0.36.1 · 衣橱图片同步与卡片交互改进](https://github.com/alexyutao/kaia-releases/releases/tag/v0.36.1)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.36.0/Kaia_0.36.0_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.36.1/Kaia_0.36.1_x64-setup.exe)**
 
-本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.36.0.txt`。
+本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.36.1.txt`。
 
-主要更新：对话接入 Deep Agents 执行引擎，修复多工具执行后提前结束、完成校验反复纠正和空回答误报；衣橱先读取本页所有候选的关键值，再按需查询具体衣物的明细。Windows 启动不再附带控制台窗口。
+主要更新：衣橱图片通过已有 WebDAV 自动同步缩略图并按需下载原图，支持全部原图离线下载和失败重试；首页服装卡片不再出现选中透明效果。对话卡片的全文与编辑使用全屏抽屉，编辑框自动填满剩余高度；复制 AI 回复只包含正式回答。另改进手机聊天导航、软键盘布局及完成校验期间的回答显示。
 
 ## 从旧版升级
 
 先从系统托盘退出 Kaia，再运行安装包。已有用户选择原安装目录即可升级，应用标识与用户数据目录保持不变；无需手动替换单个主程序。
 
-本版会将本机执行记录库升级到版本 8，以支持图检查点，业务数据保留。升级前可先导出备份；通过应用内更新安装时会创建升级快照。旧版程序无法直接打开升级后的执行记录库，如需回退，应使用升级前的备份。
+自 v0.36.0 起，本机执行记录库使用版本 8，以支持图检查点，业务数据保留。升级前可先导出备份；通过应用内更新安装时会创建升级快照。旧版程序无法直接打开升级后的执行记录库，如需回退，应使用升级前的备份。
 
 其他版本、平台及附件见 [Releases](https://github.com/alexyutao/kaia-releases/releases)。旧的 v0.31.1 主程序手动替换版仍保留供历史查阅。
 
