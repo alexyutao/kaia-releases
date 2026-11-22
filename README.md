@@ -4,13 +4,13 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.36.2 · 手机布局与穿衣推荐修复](https://github.com/alexyutao/kaia-releases/releases/tag/v0.36.2)
+[Kaia v0.37.1 · 桌面日志布局修复](https://github.com/alexyutao/kaia-releases/releases/tag/v0.37.1)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.36.2/Kaia_0.36.2_x64-setup.exe)**
+**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.37.1/Kaia_0.37.1_x64-setup.exe)**
 
-本次提供完整 NSIS / MSI 安装器，包含程序及所需资源，支持新安装和覆盖升级，并附更新签名与清单。安装说明见本版 Release，文件校验值见 `SHA256SUMS-0.36.2.txt`。
+[下载 macOS Apple Silicon 安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.37.1/Kaia_0.37.1_aarch64.dmg)
 
-主要更新：手机导航统一到侧边栏，衣橱分类与季节采用紧凑的一行筛选，添加、图片同步和批量删除入口集中在右上角。聊天输入区调整资料、能力和模型入口，菜单面板支持跟手下拉、回弹和关闭动画。首页、衣橱和天气工具共用冷热策略，修复 13—20℃ 可能推荐羽绒服的问题；没有合适薄外搭时提示补齐。
+本版修复桌面日志正文在宽屏上偏右及出现横向滚动条的问题。Windows EXE 支持新安装和覆盖升级，校验值见 `SHA256SUMS-0.37.1.txt`。
 
 ## 从旧版升级
 
@@ -22,7 +22,7 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 在线更新
 
-本版使用与客户端内置公钥匹配的原私钥签名，附带 EXE / MSI 更新签名和 `latest.json`，并设为 Latest。已使用公开更新源的旧版可在「设置 → 通用 → 应用更新」检查、下载并验证更新。
+Windows 安装包使用与客户端内置公钥匹配的更新签名，并附带 `latest.json`。已使用公开更新源的旧版可在「设置 → 通用 → 应用更新」检查、下载并验证更新。
 
 仍使用私有更新源的旧版需先从上面的链接手动安装一次，之后即可使用公开更新源。
 
