@@ -4,13 +4,13 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 当前版本
 
-[Kaia v0.37.1 · 桌面日志布局修复](https://github.com/alexyutao/kaia-releases/releases/tag/v0.37.1)
+[Kaia v0.37.2 · Windows 浏览记忆与衣橱修复](https://github.com/alexyutao/kaia-releases/releases/tag/v0.37.2)
 
-**[下载 Windows x64 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.37.1/Kaia_0.37.1_x64-setup.exe)**
+**[下载 Windows x64 v0.37.2 完整安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.37.2/Kaia_0.37.2_x64-setup.exe)**
 
-[下载 macOS Apple Silicon 安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.37.1/Kaia_0.37.1_aarch64.dmg)
+[下载 macOS Apple Silicon v0.37.1 安装包](https://github.com/alexyutao/kaia-releases/releases/download/v0.37.1/Kaia_0.37.1_aarch64.dmg)
 
-本版修复桌面日志正文在宽屏上偏右及出现横向滚动条的问题。Windows EXE 支持新安装和覆盖升级，校验值见 `SHA256SUMS-0.37.1.txt`。
+Windows v0.37.2 修复了浏览器来源导入按钮和衣橱搜索框的焦点边框。可下载 EXE 手动安装或覆盖升级，校验值见 `SHA256SUMS-0.37.2.txt`。
 
 ## 从旧版升级
 
@@ -22,7 +22,7 @@ Kaia 的公开下载与更新分发仓库。这里提供发布说明和安装文
 
 ## 在线更新
 
-Windows 安装包使用与客户端内置公钥匹配的更新签名，并附带 `latest.json`。已使用公开更新源的旧版可在「设置 → 通用 → 应用更新」检查、下载并验证更新。
+已使用公开更新源的旧版可在「设置 → 通用 → 应用更新」检查、下载并验证在线更新。Windows v0.37.2 通过上方的 EXE 手动安装，发布附件提供更新签名和 SHA-256 校验值。
 
 仍使用私有更新源的旧版需先从上面的链接手动安装一次，之后即可使用公开更新源。
 
